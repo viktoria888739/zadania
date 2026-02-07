@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+    font-size: 30px;
+    flex-wrap: wrap;
+
+    button {
+        font-size: 30px;
+    }
+
+    input {
+        font-size: 30px;
+    }
+
+    output {
+        font-size: 30px;
+
+    }
+}
+
+#btn {
+    display: flex;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* #addBtn {
+    font-size: 30px;
+
+}
+
+#input {
+    font-size: 30px;
+
+}
+#input2 {
+    font-size: 30px;
+
+} */
+.fourth {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
