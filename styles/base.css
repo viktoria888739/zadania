@@ -268,3 +268,9 @@ main {
   font-weight: 700;
 }
 
+.target-div{
+    position: absolute;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}

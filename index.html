@@ -489,6 +489,58 @@
         </div>
       </div>
     </section>
+     <section class="task" id="task-19">
+      <div class="task__header">
+        <h2 class="task__title">Задача 19 — Случайная высота старта</h2>
+        <span
+          class="hint"
+          tabindex="0"
+          aria-label="Подсказка"
+          title="Для вертикали вычисляй случайный y: Math.floor(Math.random() * (area.clientHeight - 100)). top задавай в px, left/удаление оставь как в прошлом задании."
+          >?</span
+        >
+      </div>
+      <p class="task__desc">
+        Блоки двигаются так же, но стартуют на разных высотах.
+      </p>
+      <div class="task__work">
+        <div class="task-area">
+          <div
+            class="game-area"
+            data-js="t19-area"
+            aria-label="Область задачи 19"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="task" id="task-20">
+      <div class="task__header">
+        <h2 class="task__title">Задача 20 — Очки за клик</h2>
+        <span
+          class="hint"
+          tabindex="0"
+          aria-label="Подсказка"
+          title="Повесь click на каждый блок: score += 1, обнови textContent счетчика, затем удали кликнутый блок. Удобно хранить score в отдельной переменной."
+          >?</span
+        >
+      </div>
+      <p class="task__desc">
+        Кликайте по блокам: за каждый клик начисляется очко и блок исчезает.
+      </p>
+      <div class="task__work">
+        <div class="task-area">
+          <output class="pill mono"
+            >Счёт: <span data-js="t20-score">0</span></output
+          >
+          <div
+            class="game-area"
+            data-js="t20-area"
+            aria-label="Область задачи 20"
+          ></div>
+        </div>
+      </div>
+    </section>
 
     <section class="task" id="task-21">
       <div class="task__header">
